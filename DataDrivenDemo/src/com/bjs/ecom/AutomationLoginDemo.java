@@ -26,6 +26,8 @@ public class AutomationLoginDemo {
 		System.out.println(usernameData);
 		System.out.println(passwordData);
 		
+		System.out.println("Driver Launch");
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(urlData);
